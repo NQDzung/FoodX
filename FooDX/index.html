@@ -5,240 +5,491 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Libs/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./Libs/CSS/style.css">
+    <link rel="stylesheet" href="./Libs/CSS/stylesheet.css">
     <title>Document</title>
 </head>
 
 <body>
 
-    <div class="Cover">
+    <div class="root">
+        <header class="header">
+            <div class="container">
+                <div class="header__wrap">
+                    <div class="header__logo">
+                        <!-- "#" dùng để load lại trang -->
+                        <a href="#" class="header__navbar-link">
+                            <img src="./Libs/Vector/FoodDX.svg" alt="">
+                        </a>
+                    </div>
 
-        <div class="element-fth">
-
-            <div class="header">
-
-                <div class="head-content">
-
-                    <div class="left-head"><img src="./Img/FoodDX.png" alt=""></div>
-
-                    <div class="right-header">
-
-                        <ul class="page-list1">
-
-                            <li>Home</li>
-                            <li>About Us</li>
-                            <li>Explore Foods</li>
-                            <li>Reviews</li>
-                            <li>FAQ</li>
-
+                    <div class="header__right">
+                        <ul class="header__navbar">
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    Explore Foods
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-link">
+                                    FAQ
+                                </a>
+                            </li>
                         </ul>
 
                         <div>
-
                             <button class="click-1">1800 789 123</button>
-
                         </div>
+                    </div>
+                </div>
+            </div>
+        </header>
 
+        <div class="main">
+            <div class="product">
+                <div class="container">
+                    <div class="product__wrap">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="product__content">
+                                    <h1 class="oder-food">
+                                        Order food from favourite restaurants near you.
+                                    </h1>
+
+                                    <span class="amet-leo">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        <br /> Etiam et purus a odio finibus bibendum amet leo.
+                                    </span>
+
+                                    <div class="button_wrap">
+                                        <button class="btn--oder">
+                                            Oder Now
+                                            <img src="./Libs/Vector/Basket.svg" alt="">
+                                        </button>
+
+                                        <button class="btn--learn">
+                                            Learn More
+                                            <img src="./Libs/Vector/Largersign.svg" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-7">
+                                <!-- <div class="product__box"> -->
+                                <img class="unsplash" src="./Libs/Img/anh-nguyen-kcA-c3f_3FE-unsplash 1.png" alt="">
+                                <!-- </div> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-
-            <div class="element-fth">
-
-                <div class="description-page1">
-
-                    <div class="option">
-
-                        <h5 class="if1-page1">Order food from favourite restaurants near you.</h5>
-
-                        <p class="if2-page1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-                            <br /> Etiam et purus a odio finibus bibendum amet leo.
-
-                        </p>
-
-                        <div class="button-if">
-
-                            <button class="oder-n">Oder Now
-
-                                <i class="fa-solid fa-basket-shopping"></i>
-
-                            </button>
-
-                            <button class="learn-m">Learn More
-
-                                <i class="fa-solid fa-chevron-right"></i>
-
-                            </button>
-
-                        </div>
-
+            <div class="crossbar">
+                <div class="container">
+                    <div class="crossbar__wrap">
+                        <div class="number__list">
+                            <div class="number__list-item">
+                              <div class="number">1287+</div>
+                              <div class="savings">Savings</div>
+                            </div>
+                            <div class="number__list-item">
+                              <div class="number">5786+</div>
+                              <div class="savings">Savings</div>
+                            </div>
+                            <div class="number__list-item">
+                              <div class="number">1440+</div>
+                              <div class="savings">Savings</div>
+                            </div>
+                            <div class="number__list-item">
+                              <div class="number">7110+</div>
+                              <div class="savings">Savings</div>
+                            </div>
+                          </div>
                     </div>
-
-                    <img class="img-food" src="./Img/anh-nguyen-kcA-c3f_3FE-unsplash 1.png" alt="">
-
                 </div>
-
             </div>
 
-        </div>
+            <div class="product">
+                <div class="container">
+                    <div class="product__wrap">
+                        <div class="product__top">
+                            <img class="three-bowl" src="./Libs/Img/unsplash_HlNcigvUi4Q.png">
 
-        <div class="savings">
+                            <div class="product__top-content">
+                                <h2 class="we-pride">
+                                    We pride ourselves on making real food from the best ingredients.
+                                </h2>
 
-            <ul class="savings-list">
+                                <p>
+                                    Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.<br />
+                                    Etiam et purus a odio finibus bibendum amet leo.
+                                </p>
 
-                <li>1287+
-                    <div class="class-savi">Savings</div>
-                </li>
+                                <button class="btn--learn-orange">
+                                    Learn More
+                                    <img src="./Libs/Vector/Wlargersign.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
 
-                <li>5786+
-                    <div class="class-savi">Savings</div>
-                </li>
+                        <div class="product__bottom">
+                            <div class="product__bottom-content">
+                                <h2 class="ingredients">
+                                    We make everything by hand with the best possible ingredients.
+                                </h2>
 
-                <li>1440+
-                    <div class="class-savi">Savings</div>
-                </li>
+                                <div class="paragraph">
+                                    <p class="lorem-ipsum">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Etiam et purus a odio finibus bibendum in sit amet leo.
+                                        Mauris feugiat erat tellus.
+                                        Far far away, behind the word mountains,
+                                        far from the countries Vokalia and Consonantia,
+                                        there live the blind texts.
+                                    </p>
 
-                <li>7110+
-                    <div class="class-savi">Savings</div>
-                </li>
+                                    <p class="Etiam">
+                                        <img src="./Libs/Vector/Check.svg" alt=""></i>
+                                        <span class="s-class">Etiam sed dolor ac diam volutpat.</span>
+                                    </p>
 
-            </ul>
+                                    <p class="Etiam">
+                                        <img src="./Libs/Vector/Check.svg" alt=""></i>
+                                        <span class="s-class">Etiam sed dolor ac diam volutpat.</span>
+                                    </p>
 
-        </div>
+                                    <p class="Etiam">
+                                        <img src="./Libs/Vector/Check.svg" alt=""></i>
+                                        <span class="s-class">Etiam sed dolor ac diam volutpat.</span>
+                                    </p>
 
-        <div class="element-fth">
+                                    <button class="learnmore-3">
+                                        Learn More
+                                        <img src="./Libs/Vector/Wlargersign.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
 
-            <div class="setwidth-height">
-
-                <div class="iftop-page2">
-
-                    <img class="three-bowl" src="./Img/unsplash_HlNcigvUi4Q.png">
-
-                    <div class="rightcontent-page2">
-
-                        <h1 class="we-pride">
-
-                            We pride ourselves on making real food from the best ingredients.
-
-                        </h1>
-
-                        <p>
-                            Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit.<br />
-                            Etiam et purus a odio finibus bibendum amet leo.
-
-                        </p>
-
-                        <button>Learn More
-
-                            <i class="fa-solid fa-chevron-right"></i>
-
-                        </button>
-
+                            <img class="hamburger" src="./Libs/Img/unsplash_-GFCYhoRe48.png" alt="">
+                        </div>
                     </div>
-
                 </div>
+                <img class="mint-leave" src="./Libs/Img/foliage.png" alt="">
+            </div>
 
-                <div class="ifbottom-page2">
+            <div class="horizontal__image">
+                <div class="information">
+                    <div class="container">
+                        <div class="information__wrap">
+                            <h3 class="whether">
+                                When a man's stomach is full it makes no
+                                difference whether he is rich or poor.
+                            </h3>
 
-                    <div class="leftcontent-page2">
-
-                        <h2 class="ingredients">
-
-                            We make everything by hand with the best possible ingredients.
-
-                        </h2>
-
-                        <div class="paragraph">
-
-                            <p>
+                            <p class="Lorem">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Etiam et purus a odio finibus bibendum in sit amet leo.
                                 Mauris feugiat erat tellus.
-                                Far far away, behind the word mountains,
-                                far from the countries Vokalia and Consonantia,
-                                there live the blind texts.
-
                             </p>
 
-                            <p class="Etiam"><i class="fa-solid fa-check"></i>
+                            <div class="btn--watchstory">
+                                <img src="./Libs/Vector/watch-story.svg" alt="">
+                                <button class="watch-story">Watch Our Story</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                                <span class="s-class">Etiam sed dolor ac diam volutpat.</span>
+            <div class="product">
+                <div class="container">
+                    <div class="product__wrap">
+                        <div class="product__info">
+                            <h3 class="Explore">Explore Our Foods</h3>
 
+                            <p class="bookmarksgrove">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus
+                                bibendum in sit amet leo. Mauris feugiat erat tellus. Far far away, behind the word
+                                mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                                Separated they live in Bookmarksgrove.
                             </p>
-
-                            <p class="Etiam"><i class="fa-solid fa-check"></i>
-
-                                <span class="s-class">Etiam sed dolor ac diam volutpat.</span>
-
-                            </p>
-
-                            <p class="Etiam"><i class="fa-solid fa-check"></i>
-
-                                <span class="s-class">Etiam sed dolor ac diam volutpat.</span>
-
-                            </p>
-
-                            <button>
-                                 Learn More
-
-                                <i class="fa-solid fa-chevron-right"></i>
-
-                            </button>
-
                         </div>
 
+                        <div class="product__price">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product__box">
+                                        <img class="product__box-pic" src="./Libs/Img/unsplash_-F_5g8EEHYE.png" alt="">
+
+                                        <div class="product__content">
+                                            <div class="product__content-wrap">
+                                                <div class="underlined">
+                                                    <p class="rainbow">Rainbow Vegetable Sandwich</p>
+
+                                                    <span class="time-minutes">Time: 15 - 20 Minutes | Serves: 1</span>
+
+                                                    <div class="product__price-item">
+                                                        $10.50
+                                                        <span class="product-oldprice">$11.70</span>
+                                                    </div>
+                                                </div>
+
+                                                <button class="btn--threeoder">
+                                                    Oder Now
+
+                                                    <img src="./Libs/Vector/Basket.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="product__box">
+                                        <img class="product__box-pic" src="./Libs/Img/unsplash_12eHC6FxPyg.png" alt="">
+
+                                        <div class="product__content">
+                                            <div class="product__content-wrap">
+                                                <div class="underlined">
+                                                    <p class="rainbow">Rainbow Vegetable Sandwich</p>
+
+                                                    <span class="time-minutes">Time: 15 - 20 Minutes | Serves: 1</span>
+
+                                                    <div class="product__price-item">
+                                                        $9.20
+                                                        <span class="product-oldprice">$11.70</span>
+                                                    </div>
+                                                </div>
+
+                                                <button class="btn--threeoder">
+                                                    Oder Now
+
+                                                    <img src="./Libs/Vector/Basket.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="product__box">
+                                        <img class="product__box-pic" src="./Libs/Img/unsplash_oaz0raysASk.png" alt="">
+
+                                        <div class="product__content">
+                                            <div class="product__content-wrap">
+                                                <div class="underlined">
+                                                    <p class="rainbow">Rainbow Vegetable Sandwich</p>
+
+                                                    <span class="time-minutes">Time: 15 - 20 Minutes | Serves: 1</span>
+
+                                                    <div class="product__price-item">
+                                                        $12.50
+                                                        <span class="product-oldprice">$15.70</span>
+                                                    </div>
+                                                </div>
+
+                                                <button class="btn--threeoder">
+                                                    Oder Now
+
+                                                    <img src="./Libs/Vector/Basket.svg" alt="">
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials">
+                <div class="container">
+                    <div class="testimonials__wrap">
+                        <span class="spa-testimonials">Testimonials</span>
+
+                        <div class="cover__all">
+                            <img class="small-pict" src="./Libs/Img/unsplash_x9cXI2eQLBw.png" alt="">
+
+                            <p class="far-away">
+                                "Far far away, behind the word mountains, far from the countries
+                                Vokalia and Consonantia, there live the blind texts Separated they live."
+                            </p>
+
+                            <div class="chiranjit">
+                                Chiranjit Hazarika - Web Designer
+                            </div>
+                        </div>
+
+                        <div class="three-ellipse">
+                            <img src="./Libs/Vector/Ellipse 3.svg" alt="">
+                            <img src="./Libs/Vector/Ellipse 1.png" alt="">
+                            <img src="./Libs/Vector/Ellipse 1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="container">
+                    <div class="product__wrap">
+                        <p class="frequently">
+                            Frequently Asked Questions
+                        </p>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="product__box">
+                                    <div class="foodera">
+                                        <span class="tilde">~</span> Is Foodera Bread really baked fresh each day?
+                                    </div>
+
+                                    <p class="semantics">
+                                        Far far away, behind the word mountains, far from the countries Vokalia
+                                        and Consonantia, there live the blind texts. Separated they live in
+                                        Bookmarksgrove right at the coast of the Semantics, a large language.
+                                    </p>
+
+                                    <div class="can-ioder">
+                                        <span class="tilde">~</span> Can I order your products online?
+                                    </div>
+
+                                    <p class="semantics">
+                                        Far far away, behind the word mountains, far from the countries Vokalia
+                                        and Consonantia, there live the blind texts. Separated they live in
+                                        Bookmarksgrove right at the coast of the Semantics, a large language.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="product__box">
+                                    <div class="containing-animal">
+                                        <span class="tilde">~</span> Do you bake breads containing animal fats or
+                                        products?
+                                    </div>
+
+                                    <p class="semantics">
+                                        Far far away, behind the word mountains, far from the countries Vokalia
+                                        and Consonantia, there live the blind texts. Separated they live in
+                                        Bookmarksgrove right at the coast of the Semantics, a large language.
+                                    </p>
+
+                                    <div class="opening">
+                                        <span class="tilde">~</span> When are you opening a shop near me?
+                                    </div>
+
+                                    <p class="semantics">
+                                        Far far away, behind the word mountains, far from the countries Vokalia
+                                        and Consonantia, there live the blind texts. Separated they live in
+                                        Bookmarksgrove right at the coast of the Semantics, a large language.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="black__horizontalbar">
+                <div class="container">
+                    <div class="black__horizontalbar-wrap">
+                        <p class="baked-fresh">Baked fresh daily by bakers with passion.</p>
+
+                        <button class="last__learnmore">
+                            Learn More
+                            <img src="./Libs/Vector/Wlargersign.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="container">
+                    <div class="product__wrap">
+                        <p class="hurry-up">
+                            Hurry up! Subscribe our<br /> newsletter and get 25% Off
+                        </p>
+
+                        <p class="limited">
+                            Limited time offer for this month. No credit card required.
+                        </p>
+
+                        <div class="inner__wrap">
+                            <input class="email" type="text" placeholder="Email Address Here">
+                            <!-- placeholder dùng để đặt nội dung vào trong input -->
+
+                            <span><button class="subscribe">Subscribe</button></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer div class="crossbar">
+            <div class="container">
+                <div class="crossbar__wrap">
+                    <div class="crossbar__content">
+                        <a href="#">
+                            <p class="crossbar_fourcontent">
+                                Register
+                            </p>
+                        </a>
+                        <a href="#">
+                            <p class="crossbar_fourcontent">
+                                Forum
+                            </p>
+                        </a>
+                        <a href="#">
+                            <p class="crossbar_fourcontent">
+                                Affiliate
+                            </p>
+                        </a>
+                        <a href="#">
+                            <p class="crossbar_fourcontent">
+                                FAQ
+                            </p>
+                        </a>
                     </div>
 
-                    <img class="hamburger" src="./Img/unsplash_-GFCYhoRe48.png" alt="">
-
+                    <div class="crossbar__icon">
+                        <a href="#">
+                            <img class="fb" src="./Libs/Vector/FB.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="twitter" src="./Libs/Vector/Twitter.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./Libs/Vector/Instagram.svg" alt="">
+                        </a>
+                    </div>
+                    
+                    <p class="foodx">© 2021. FoodDX. All rights reserved.</p>
                 </div>
-
             </div>
-
-        </div>
-
-        <div class="pict-in4">
-
-            <!-- <div class="wrapper-class">
-
-                <img src="./Img/unsplash_qYreP9QOdrk.png" alt=""> -->
-
-                <div class="information">
-
-                    <h2 class="whether">
-
-                        When a man's stomach is full it makes no
-                        difference whether he is rich or poor.
-
-                    </h2>
-
-                    <p class="Lorem">
-
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Etiam et purus a odio finibus bibendum in sit amet leo.
-                        Mauris feugiat erat tellus.
-
-                    </p>
-
-                    <i class="fa-regular fa-circle-play"></i><button class="watch-story">Watch Our Story</button>
-                
-                </div>
-
-            </div>
-        
-        </div>
-
-
-
-
+        </footer>
     </div>
-
 </body>
-
-</html>
